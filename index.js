@@ -5,7 +5,7 @@ import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 // import routes
-import recipeRoutes from './routes/recipe.js';
+//import recipeRoutes from './routes/recipe.js';
 import jobRoutes from './routes/job.js';
 
 // set port
@@ -42,7 +42,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use(recipeRoutes);
+//app.use(recipeRoutes);
 app.use(jobRoutes);
 
 // error
